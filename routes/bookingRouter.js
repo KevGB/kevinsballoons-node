@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
   res.render('book-performance-form');
 });
 
-// POST request handler for booking form submissio
+// POST request handler for booking form sub
 router.post('/', (req, res) => {
   // Handle form submission logic
   res.redirect('/book-performance/thank-you');
